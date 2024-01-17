@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0;
+}
+
+
+body {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+
+.main {
+    
+    
+}
+
+header {
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-weight:500;
+    font-size: 1.7rem;
+    background-color: #000000;
+    color: white;
+    justify-content: center;
+    height: 73px;
+    /* max-width: 1280px;
+    margin: 0 auto; */
+
+}
+
+
+
+.iguana {
+    background-image: url('../img/iguana-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 727px;
+    /* max-width: 1280px;
+    margin: 0 auto; */
+     
+}
+
+.section_2 {
+    display: flex;
+    height: 348px;
+    background-color: #000000;
+    color: white;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.iguana_2{
+    width: 399px;
+    height: 237px;
+    border-radius: 1%;
+
+}
+
+.texto{
+    text-align: left;
+    width: 475px;
+    height: 197px;
+    font-family: 'Raleway', sans-serif;
+    font: weight 200;
+}
+
+
+.section_3 {
+    display: flex;
+    background-color: #1E1A13;
+    height: 348px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight:200;
+    text-align: center;
+      flex-flow: wrap row;
+
+}
+
+.caracteristica{
+    justify-content: center;
+    font-weight:500;
+    font-size: 2rem;
+    text-align: center;
+    width: 100%;
+
+
+
+}
+
+.icono{
+    height: 0%;
+    width:316px ;
+    margin: 7px;
+    font-size: 5rem;
+    padding: 10px;
+ 
+
+}
+
+.section_4{
+    display: flex;
+    background-color: #000000;
+    height: 348px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.imagen_4 {
+    height: 202px;
+    width:316px ;
+    margin: 7px;
+    
+}
+
+.footer{
+    display: flex;
+    background-color: #1E1A13 ;
+    height: 102px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight:200;
+}
+
+
+
+
+
+
